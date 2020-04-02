@@ -1,8 +1,12 @@
 # don't forget to add: require 'pry'
 
+require 'pry'
+
+string = "surprise"
+
 def snake_it_up(string)
   if string[0] == "s"
-    10 * "s" + string
+    string = "s" * 10 + string
   else
     string
   end
